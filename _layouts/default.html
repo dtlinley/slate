@@ -17,12 +17,9 @@
 
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <a id="findme_icon" href="https://www.facebook.com/dtlinley" style="background-image: url('../images/facebook.png')"></a>
-          <a id="findme_icon" href="http://www.steamcommunity.com/id/dtlinley" style="background-image: url('../images/steam.png')"></a>
-          <a id="findme_icon" href="http://lnkd.in/ggYZfy" style="background-image: url('../images/linkedin.png')"></a>
-          <a id="findme_icon" href="https://github.com/dtlinley" style="background-image: url('../images/github.png')"></a>
-                   
-	  <h1 id="project_title">{{ page.title }}</h1>
+          {% include findme_links.html %}
+
+          <h1 id="project_title">{{ page.title }}</h1>
           <h2 id="project_tagline">{{ page.tagline }}</h2>
 
         </header>
