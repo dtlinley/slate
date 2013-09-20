@@ -5,13 +5,18 @@ tagline: Professional
 name: David Linley
 site: http://david.linley.ca
 ---
-        <h3>Who I Am</h3>
-        <p>I am David Linley, a Professional and a Software Developer living and working in Toronto, Ontario. </p>
+        <article>
+	<h3>Who I Am</h3>
+	<p>I am David Linley, a Professional and a Software Developer living and working in Toronto, Ontario. </p>
+        </article>
 
+	<article>
 	<h3>What I've Done</h3>
 
-        <p>Various things. I went to school, for instance; I graduated from the University of Waterloo's Computer Science Co-operative Education program (UW CS co-op). I've worked all over the world (or at least all around it-- from Perth, Australia to Toronto, Canada). I've made software, made more software, done some singing and camping, and made more software. Besides making software for companies, I've started a few side projects to keep myself busy.</p>
+	<p>Various things. I went to school, for instance; I graduated from the University of Waterloo's Computer Science Co-operative Education program (UW CS co-op). I've worked all over the world (or at least all around it-- from Perth, Australia to Toronto, Canada). I've made software, made more software, done some singing and camping, and made more software. Besides making software for companies, I've started a few side projects to keep myself busy.</p>
+	</article>
 
+	<article>
 	<h3>Where I've Worked</h3>
 
 	<h4>Xtreme Labs</h4>
@@ -25,3 +30,11 @@ site: http://david.linley.ca
 	<h4>Sybase</h4>	
 
 	<p><a href="http://www.sybase.com/">Sybase</a> is a worldwide powerhouse in database development, with a large team spread out over the world all working together to enrich the Sybase brand of products. Acquired by SAP in 2010, Sybase has the backing of a large international company while still retaining its independence. I was hired as an intern at Sybase's Waterloo office twice as part of the IQ database team, working with departments in several continents worldwide. Developed in C++, the IQ database system is used by thousands of customers internationally and being able to develop features for the system was an excellent way to have real impact on a large project. Sybase provides a great example of how to split a very large engineering force into manageable teams that can work on many projects simultaneously without sacrificing communication within the company.</p>
+	</article>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+	<script src="scripts/readmore.js"></script>
+
+	<script>
+	  $('article').readmore({maxHeight: 240});
+	</script>
