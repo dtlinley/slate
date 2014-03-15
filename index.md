@@ -7,10 +7,7 @@ site: http://david.linley.ca
 ---
 
 ##Who I Am
-I am David Linley, a Professional and a Software Developer living and working in Toronto, Ontario.
-
-##What I've Done
-Various things. I went to school, for instance; I graduated from the University of Waterloo's Computer Science Co-operative Education program (UW CS co-op). I've worked all over the world (or at least all around it-- from Perth, Australia to Toronto, Canada). I've made software, made more software, done some singing and camping, and made more software. Besides making software for companies, I've started a few side projects to keep myself busy.
+I am David Linley, a Professional and a Software Developer living and working in Toronto. I'm a graduate of the University of Waterloo's Computer Science Co-operative Education program (UW CS co-op), and I've written software all over the world (or at least all around it-- from Perth, Australia to Toronto, Canada). I'm interested in designing/building cool software (whether mobile, desktop or web), [de-centralizing the web](http://owncloud.org/), and meeting people that are smarter than me; I also enjoy [singing](https://www.youtube.com/watch?v=SzT7xu2mNSw) and [long walks on the beach](http://xkcd.com/120/).
 
 ##Where I've Worked
 ###Pivotal Labs (formerly Xtreme Labs)
